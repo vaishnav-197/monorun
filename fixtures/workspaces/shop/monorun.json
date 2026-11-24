@@ -1,0 +1,20 @@
+{
+  "tasks": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "test": {
+      "dependsOn": [
+        "build"
+      ]
+    }
+  },
+  "globalFiles": [
+    "package.json",
+    "package-lock.json",
+    "monorun.json",
+    "tsconfig.base.json"
+  ]
+}

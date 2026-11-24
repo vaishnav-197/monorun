@@ -1,0 +1,6 @@
+{
+  "name": "@cycle/b",
+  "version": "1.0.0",
+  "scripts": { "build": "echo b" },
+  "devDependencies": { "@cycle/a": "^1.0.0" }
+}

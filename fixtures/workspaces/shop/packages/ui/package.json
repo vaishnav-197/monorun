@@ -1,0 +1,15 @@
+{
+  "name": "@shop/ui",
+  "version": "2.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "node ../../tools/build.mjs",
+    "test": "node ../../tools/test.mjs"
+  },
+  "dependencies": {
+    "@shop/theme": "^1.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.3.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@shop/api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ../../tools/build.mjs",
+    "test": "node ../../tools/test.mjs",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@shop/utils": "^0.4.0"
+  }
+}

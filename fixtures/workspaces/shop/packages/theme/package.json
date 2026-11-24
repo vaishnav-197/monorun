@@ -1,0 +1,8 @@
+{
+  "name": "@shop/theme",
+  "version": "1.2.0",
+  "type": "module",
+  "dependencies": {
+    "@shop/tokens": "^1.2.0"
+  }
+}

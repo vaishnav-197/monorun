@@ -1,0 +1,38 @@
+{
+  "name": "monorun",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Run package scripts across an npm workspaces monorepo in dependency order, for every project or only the ones a change affects.",
+  "keywords": [
+    "monorepo",
+    "workspaces",
+    "task-runner",
+    "affected",
+    "ci"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaishnav-197/monorun.git"
+  },
+  "type": "module",
+  "bin": {
+    "monorun": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "7.0.2",
+    "vitest": "5.0.5"
+  }
+}
